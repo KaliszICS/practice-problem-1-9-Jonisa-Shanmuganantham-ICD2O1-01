@@ -1,24 +1,31 @@
-
+'''
+    Lesson: String Manipulation
+    Author: Jonisa Shanmuganantham
+    Date Created: Sept 30, 2024
+    Date Last Modified: Sept 30, 2024
+'''
 
 def q1(): 
-  #Write Assignment code here
-
+  print('"Hello World"')
 
 def q2(): 
-  #Write Assignment code here
-
+  word = input("Input a word: ")
+  word = world.lower()
+  print(word)
+  word = world.upper()
+  print(word)
 
 def q3(): 
-  #Write Assignment code here
-
+  word = input("Input a word that is at least 5 letters long: ")
+  print(word[1:4])
 
 def q4(): 
-  #Write Assignment code here
-
+  word = input("Input a word: ")
+  print(word.index("o"))
 
 def q5(): 
-  #Write Assignment code here
-
+  word = input("Input a word: ")
+  print(len(word))
 
 
 #Do not alter the following code
