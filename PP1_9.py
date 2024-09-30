@@ -10,9 +10,9 @@ def q1():
 
 def q2(): 
   word = input("Input a word: ")
-  word = world.lower()
+  word = word.lower()
   print(word)
-  word = world.upper()
+  word = word.upper()
   print(word)
 
 def q3(): 
@@ -31,8 +31,10 @@ def q5():
 #Do not alter the following code
 #Comment out the following code when running your tests
 
+'''
 q1()
 q2()
 q3()
 q4()
 q5()
+'''
